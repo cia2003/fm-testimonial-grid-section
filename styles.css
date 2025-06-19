@@ -39,6 +39,7 @@ body {
     ;
     gap: 2em;
     padding: 1.5em;
+    justify-content: center;
 }
 
 .card {
@@ -104,6 +105,7 @@ body {
 }
 
 .comment__detail {
+    line-height: 1.5;
     opacity: 0.9;
 }
 
@@ -135,8 +137,8 @@ body {
 
 @media screen and (min-width: 70em){
     .card-list {
-        grid-template-columns: repeat(4, auto);
-        grid-template-rows: repeat(2, 20em);
+        grid-template-columns: repeat(4, 20em);
+        grid-template-rows: repeat(2, auto);
         grid-template-areas: 
             "card-one card-one card-two card-five"
             "card-three card-four card-four card-five"
