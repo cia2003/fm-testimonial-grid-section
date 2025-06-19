@@ -18,7 +18,7 @@
 }
 
 * {
-    font-family: var(--default-font-family), 'sans-serif';
+    font-family: var(--default-font-family), sans-serif;
     box-sizing: border-box;
 }
 
